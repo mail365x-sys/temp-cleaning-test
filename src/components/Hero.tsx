@@ -68,11 +68,12 @@ export default function Hero() {
             </div>
           </div>
 
-          <div className="relative">
+          <div className="relative flex justify-center items-center">
             <img
               src="/dsc06294.jpg"
               alt="Professional cleaner at work"
-              className="rounded-2xl shadow-2xl w-full h-auto object-contain"
+              className="rounded-2xl shadow-2xl max-w-full h-auto object-contain"
+              style={{ maxHeight: '600px' }}
             />
           </div>
         </div>
