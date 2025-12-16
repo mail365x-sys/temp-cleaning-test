@@ -72,7 +72,7 @@ export default function Hero() {
             <img
               src="/dsc06294.jpg"
               alt="Professional cleaner at work"
-              className="rounded-2xl shadow-2xl w-full h-auto object-cover"
+              className="rounded-2xl shadow-2xl w-full h-auto object-contain"
             />
           </div>
         </div>
