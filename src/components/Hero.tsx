@@ -70,7 +70,7 @@ export default function Hero() {
 
           <div className="lg:w-1/2 relative lg:absolute lg:right-0 lg:bottom-0 lg:h-[600px] lg:top-auto">
             <img
-              src="/dsc06294.jpg"
+              src="/dsc06293.jpg"
               alt="Professional cleaner at work"
               className="rounded-t-2xl shadow-2xl w-full h-auto object-cover lg:object-contain lg:absolute lg:bottom-0 lg:right-0 lg:h-auto lg:max-h-none"
             />
