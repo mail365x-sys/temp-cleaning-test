@@ -11,9 +11,9 @@ export default function Hero() {
   };
 
   return (
-    <section className="pt-24 lg:pt-32 pb-16 lg:pb-24 bg-gradient-to-br from-sky-50 to-white">
+    <section className="pt-24 lg:pt-32 pb-16 lg:pb-24 bg-gradient-to-br from-sky-50 to-white overflow-visible">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="grid lg:grid-cols-2 gap-12 items-start">
+        <div className="grid lg:grid-cols-2 gap-12 items-start lg:min-h-[700px]">
           <div className="space-y-8">
             <div className="space-y-4">
               <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-gray-900 leading-tight">
@@ -68,11 +68,11 @@ export default function Hero() {
             </div>
           </div>
 
-          <div className="relative w-full">
+          <div className="relative w-full h-full flex items-start">
             <img
               src="/dsc06294.jpg"
               alt="Professional cleaner at work"
-              className="rounded-2xl shadow-2xl w-full h-auto"
+              className="rounded-2xl shadow-2xl w-full h-auto max-h-none"
             />
           </div>
         </div>
