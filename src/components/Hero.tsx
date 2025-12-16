@@ -11,10 +11,10 @@ export default function Hero() {
   };
 
   return (
-    <section className="pt-24 lg:pt-32 pb-16 lg:pb-24 bg-gradient-to-br from-sky-50 to-white overflow-visible">
+    <section className="pt-24 lg:pt-32 pb-0 bg-gradient-to-br from-sky-50 to-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="grid lg:grid-cols-2 gap-12 items-start lg:min-h-[700px]">
-          <div className="space-y-8">
+        <div className="flex flex-col lg:flex-row gap-12 items-stretch">
+          <div className="lg:w-1/2 space-y-8 pb-16 lg:pb-24 flex flex-col justify-center">
             <div className="space-y-4">
               <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-gray-900 leading-tight">
                 Top-Rated House Cleaning in Eugene. <span className="text-sky-400">Book in 60 Seconds.</span>
@@ -68,12 +68,14 @@ export default function Hero() {
             </div>
           </div>
 
-          <div className="relative w-full h-full flex items-start">
-            <img
-              src="/dsc06294.jpg"
-              alt="Professional cleaner at work"
-              className="rounded-2xl shadow-2xl w-full h-auto max-h-none"
-            />
+          <div className="lg:w-1/2 flex items-end justify-end pb-0">
+            <div className="w-full">
+              <img
+                src="/dsc06294.jpg"
+                alt="Professional cleaner at work"
+                className="rounded-t-2xl lg:rounded-2xl shadow-2xl w-full h-auto object-contain"
+              />
+            </div>
           </div>
         </div>
       </div>
