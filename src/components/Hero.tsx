@@ -24,7 +24,7 @@ export default function Hero() {
               </p>
             </div>
 
-            <div className="space-y-2">
+            <div className="space-y-2 mb-8">
               <label htmlFor="zipCode" className="block text-sm font-semibold text-gray-900">
                 Enter your Zip Code
               </label>
